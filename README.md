@@ -18,8 +18,8 @@
   *  Desloca-se uma posição à direita
   *  O algoritmo vai deslocando os maiores valores para direita
 
-#### Em um vetor com 10 elementos sera feito 45 comparações: <br /> $~~~$  9+8+7+6+5+4+3+2+1 = 45
-#### Sua notação Big-O é de O(n²) -> Função quadratica
+ Em um vetor com 10 elementos será feito 45 comparações: $~$  9+8+7+6+5+4+3+2+1 = 45 <br />
+ Sua notação Big-O é de O(n²) -> Função quadratica
 <br /><br />
 
 
@@ -28,6 +28,9 @@
 #### Funcionamento
   *  Percorre todos os elementos e seleciona o menor.
   *  O menor elemento é trocado com o elemento da extremidade esquerda do vetor(posições iniciais)
+  *  É feito uma troca somente a cada rodada.
+  *  Os elementos ordenados acumulam-se na esquerda
   
-
-
+ Em um vetor com 10 elementos ainda será necessário 45 comparações.<br />
+ Sua notação é Big-O também é de O(n²) <br />
+ Em um vetor de 100 elementos, são requeridas 4950 comparações e menos de 100 trocas.<br />
