@@ -38,7 +38,7 @@
 
 
 
-## Selection Sort
+## Insertion Sort
 #### O Insertion Sort é duas vezes mais rapido que o método da bolha e um pouco mais rapido que a ordenação por seleção em situações normais(vetores com dados aleatórios).
 
 #### Funcionamento
@@ -48,12 +48,27 @@
 
  Sua notação Big-O também é de O(n²). <br />
  Um vetor com dados em ordem inversa(decrescente), todas as comparações e deslocamento são executados, sendo mais lento que o Bubble sort
+ <br /><br />
+
  
+## Shell Sort
+#### Melhora a ordenação pelo método Insert sort, podendo ser considerado uma 'versão' Insertion sort. Esse algoritmo utiliza a técnica de "intervalo" (distância entre os elementos a serem comparados) que diminui progressivamente até que o vetor esteja completamente ordenado.
 
+#### Funcionamento
+  *  O algoritmo começa comparando elementos que estão a uma certa distância do intervalo. O intervalo é inicialmente grande e vai diminuindo a cada iteração.
+  *  Esse algoritmo compara e move os elementos que estão a um intervalo maior do que 1, o que permite que os elementos sejam movidos para mais perto de suas posições finais de forma mais eficiente.
+  *  O processo continua até que o intervalo seja reduzido a 1, momento em que o algoritmo executa uma versão do Insertion Sort para ordenar os elementos restantes.
 
+ Sua notação Big-O é de O(n*log n) e no seu pior caso O(n²). <br />
+ O Shell Sort é considerado um algoritmo instável porque, em alguns casos, ele pode alterar a ordem relativa dos elementos iguais durante o processo de ordenação.
+ <br /><br />
 
+ 
+## Merge Sort
+#### O Merge Sort é faz a ordenação baseado na técnica de "Dividir e Conquistar", que divide recursivamente o vetor em partes menores até que cada parte tenha apenas um elemento e, em seguida, as mescla de forma ordenada.
 
-
+#### Funcionamento
+  *  O algoritmo começa comparando el
 
 
 
