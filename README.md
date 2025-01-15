@@ -68,7 +68,15 @@
 #### O Merge Sort é faz a ordenação baseado na técnica de "Dividir e Conquistar", que divide recursivamente o vetor em partes menores até que cada parte tenha apenas um elemento e, em seguida, as mescla de forma ordenada.
 
 #### Funcionamento
-  *  O algoritmo começa comparando el
+  *  O algoritmo começa dividindo o vetor original em duas metades.
+  *  Cada metade é recursivamente dividida em duas partes, até que todas as partes tenham apenas um único elemento.
+  *  Em seguida, começa o processo de merge: as partes menores são combinadas duas a duas, de forma ordenada, até que todas as partes sejam reunidas novamente em uma estrutura ordenada.
+  *  Durante o processo de merge, os elementos de cada subvetor são comparados e os menores (ou maiores, dependendo da ordem desejada) são inseridos em uma nova lista ou vetor.
+
+Possui a notação Big-O de O(n*log n) no melhor caso e no pior caso.
+
+
+
 
 
 
