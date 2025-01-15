@@ -74,6 +74,18 @@
   *  Durante o processo de merge, os elementos de cada subvetor são comparados e os menores (ou maiores, dependendo da ordem desejada) são inseridos em uma nova lista ou vetor.
 
 Possui a notação Big-O de O(n*log n) no melhor caso e no pior caso.
+ <br /><br />
+
+
+## Quick Sort
+
+#### O Quick Sort é amplamente reconhecido como um dos algoritmos de ordenação mais rápidos e eficientes para listas grandes. Também é baseado na técnica "Dividir e Conquistar"
+
+#### Funcionamento
+  *  O algoritmo começa escolhendo um pivô (um elemento do vetor). O elemento pivô pode ser o primeiro elemento, o último, o elemento do meio ou até mesmo um pivô aleatório.
+  *  O vetor é então reorganizado de tal forma que todos os elementos menores que o pivô ficam à sua esquerda, e todos os elementos maiores que o pivô ficam à sua direita. Esse processo de rearranjo é chamado de particionamento.
+  *  O mesmo processo de escolha do pivô e particionamento é repetido recursivamente para as sublistas à esquerda e à direita do pivô, até que todas as sublistas estejam ordenadas.
+  *  Quando as sublistas atingem tamanho 1 (ou 0), a ordenação está concluída. A ordenação final é formada pela combinação das sublistas ordenadas.
 
 
 
