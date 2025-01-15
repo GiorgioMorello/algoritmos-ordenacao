@@ -88,7 +88,8 @@ Possui a notação Big-O de O(n*log n) no melhor caso e no pior caso.
   *  Quando as sublistas atingem tamanho 1 (ou 0), a ordenação está concluída. A ordenação final é formada pela combinação das sublistas ordenadas.
 
 
-
+No pior caso sua notação Big-O é O(n²), isso acontece quando o elemento pivot é o maior ou menor elemento.
+No melhor caso sua notação é O(n*log n).
 
 
 
