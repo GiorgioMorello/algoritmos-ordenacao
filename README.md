@@ -32,7 +32,7 @@
   *  Os elementos ordenados acumulam-se na esquerda
   
  Em um vetor com 10 elementos ainda será necessário 45 comparações.<br />
- Sua notação Big-O também é de O(n²) <br />
+ Sua notação Big-O também é de O(n²). <br />
  Em um vetor de 100 elementos, são requeridas 4950 comparações e menos de 100 trocas.<br />
 <br /><br />
 
@@ -44,9 +44,11 @@
 #### Funcionamento
   *  Há um marcador em algum lugar no meio do vetor.
   *  Os elementos à esquerda do marcado estão parcialmente ordenados (estão ordenados entre eles, porém não estão em suas posições finais).
-  *  Os elementos à direita do marcador não estão ordenados.
+  *  Os elementos à direita do marcador não estão ordenados. 
 
-
+ Sua notação Big-O também é de O(n²). <br />
+ Um vetor com dados em ordem inversa(decrescente), todas as comparações e deslocamento são executados, sendo mais lento que o Bubble sort
+ 
 
 
 
